@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FirstClass, .SecondClass, .ThirdClass {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.FirstClass {
+    background-color: pink;
+}
+
+.SecondClass {
+    background-color: red;
+    color: white;
+}
+
+.ThirdClass {
+    background-color: yellow;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+    font-size: 175%;
+    position: relative;
+}
+
+div.TableOne, div.TableTwo, div.TableThree {
+    background-color: gray;
+    border: 1px black solid;
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .TableOne {
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    .TableTwo {
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .TableThree {
+        width: 100%;
+    }
+
+    #contenerTwo {
+        display: flex;
+    }
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    
+    #contener {
+        display: flex;
+    }
+
+    #contenerTwo {
+        display: flex;
+    }
+
+    .TableOne {
+        margin-right: 10px;
+    }
+
+    .TableTwo {
+        margin-right: 10px;
+    }
+}
