@@ -11,6 +11,7 @@
     width: 100px;
     text-align: center;
     font-size: 125%;
+    border: 1px black solid;
 }
 
 .FirstClass {
@@ -30,7 +31,7 @@ p {
     margin-top: 30px;
 }
 
-.center {
+h1 {
     text-align: center;
     font-weight: bold;
     font-size: 175%;
